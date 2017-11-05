@@ -9,4 +9,7 @@ RUN	cd /app && \
 	source opcua/bin/activate && \
 	pip install opcua
 ADD startup.sh /startup.sh
+
+EXPOSE 4840
+
 CMD /startup.sh
