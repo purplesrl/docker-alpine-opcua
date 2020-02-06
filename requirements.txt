@@ -1,4 +1,0 @@
-cryptography
-dateutil
-lxml
-pytz
